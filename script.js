@@ -9,7 +9,6 @@ const sortByPercentage = document.getElementById('sort2');
 
 async function fetchedData() {
     try {
-        loader.style.display = "block";
         const response = await fetch(Api);
         data = await response.json();
         showData(data);
