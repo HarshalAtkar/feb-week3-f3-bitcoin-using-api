@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+ * {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  background-color: #1d1d1d;
+  color: white;
+  font-family: "Inter", sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#crypto-data td img {
+  width: 40px;
+}
+.container {
+  margin: 5%;
+}
+
+.input {
+  padding-inline: 20px;
+  display: flex;
+  gap: 18px;
+}
+
+#search {
+  height: 50px;
+  border: 2px solid #8e8e8e;
+  border-radius: 2px;
+  width: 350px;
+  padding: 10px;
+}
+
+#sort1,
+#sort2 {
+  height: 50px;
+  border: 2px solid #8e8e8e;
+  border-radius: 2px;
+  padding: 10px;
+}
+
+#sort1:hover,
+#sort2:hover {
+  background-color: #ffffff;
+  color: #1e1e1e;
+  transition-duration: 0.2s;
+  cursor: pointer;
+}
+
+td {
+  height: 70px;
+  padding: 10px;
+  text-align: center;
+  border-bottom: 2px solid #585859;
+}
+
+#crypto-data tr td:first-child {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+  gap: 2px;
+  align-items: center;
+}
+
+.positive {
+  color: green;
+}
+
+.negative {
+  color: red;
+}
